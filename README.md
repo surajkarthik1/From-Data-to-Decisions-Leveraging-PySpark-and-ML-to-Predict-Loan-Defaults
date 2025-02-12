@@ -8,7 +8,7 @@ This project utilizes historical loan application data from the Machine Hack Dat
 
 The dataset consists of 96,376 loan application records, each detailed with 35 features like loan amount, funded amount, interest rates, and other financial attributes that are pivotal for predicting the likelihood of a loan default.
 
-### Data Processing and Analysis:
+## Data Processing and Analysis:
 
 Data preprocessing was executed using Apache PySpark, which is adept at handling large datasets:
 
@@ -30,7 +30,7 @@ Data preprocessing was executed using Apache PySpark, which is adept at handling
 
 * Encoding and Scaling: Encoded categorical variables and normalized data ranges to prepare data for effective model training.
 
-### Model Development and Evaluation:
+## Model Development and Evaluation:
 
 Evaluated various models to identify the best performer in predicting loan defaults:
 
@@ -42,7 +42,7 @@ Evaluated various models to identify the best performer in predicting loan defau
 
 Models were assessed using metrics like accuracy, precision, recall, F1-score, and AUC-ROC, ensuring the predictions are both reliable and applicable.
 
-### Conclusion:
+## Conclusion:
 
 The analysis successfully addressed several questions like:
 
