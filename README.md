@@ -1,34 +1,36 @@
 # From-Data-to-Decisions-Leveraging-PySpark-and-ML-to-Predict-Loan-Defaults
 
-Project Overview:
+### Project Overview:
+
 This project utilizes historical loan application data from the Machine Hack Data Repository to predict loan defaults. By employing various machine learning models, the analysis provides insights that help financial institutions mitigate risks associated with loan defaults.
 
-Dataset Description:
+### Dataset Description:
+
 The dataset consists of 96,376 loan application records, each detailed with 35 features like loan amount, funded amount, interest rates, and other financial attributes that are pivotal for predicting the likelihood of a loan default.
 
-Data Processing and Analysis:
+### Data Processing and Analysis:
 
 Data preprocessing was executed using Apache PySpark, which is adept at handling large datasets:
 
-Missing Values: Filled missing entries to maintain the integrity and accuracy of the dataset.
+* Missing Values: Filled missing entries to maintain the integrity and accuracy of the dataset.
 
-Feature Standardization: Categorical labels were standardized to maintain consistency across the dataset, crucial for accurate model input.
+* Feature Standardization: Categorical labels were standardized to maintain consistency across the dataset, crucial for accurate model input.
 
-Data Transformation: Utilized PySpark for data transformation and normalization, ensuring the data is suitable for processing by machine learning algorithms.
+* Data Transformation: Utilized PySpark for data transformation and normalization, ensuring the data is suitable for processing by machine learning algorithms.
 
-Exploratory Data Analysis (EDA):
+### Exploratory Data Analysis (EDA):
 
-Key Insights: The EDA phase answered crucial questions regarding the distribution of loan amounts, interest rates, and borrower reliability, helping identify patterns and trends.
+* Key Insights: The EDA phase answered crucial questions regarding the distribution of loan amounts, interest rates, and borrower reliability, helping identify patterns and trends.
 
-Visualization: Created visual representations to understand relationships between different variables and their impact on loan default probabilities.
+* Visualization: Created visual representations to understand relationships between different variables and their impact on loan default probabilities.
 
-Feature Engineering:
+### Feature Engineering:
 
-Dataset Balancing: Implemented SMOTE to overcome class imbalance in the target variable, crucial for unbiased model performance.
+* Dataset Balancing: Implemented SMOTE to overcome class imbalance in the target variable, crucial for unbiased model performance.
 
-Encoding and Scaling: Encoded categorical variables and normalized data ranges to prepare data for effective model training.
+* Encoding and Scaling: Encoded categorical variables and normalized data ranges to prepare data for effective model training.
 
-Model Development and Evaluation:
+### Model Development and Evaluation:
 
 Evaluated various models to identify the best performer in predicting loan defaults:
 
@@ -40,7 +42,8 @@ Evaluated various models to identify the best performer in predicting loan defau
 
 Models were assessed using metrics like accuracy, precision, recall, F1-score, and AUC-ROC, ensuring the predictions are both reliable and applicable.
 
-Project Conclusions
+### Conclusion:
+
 The analysis successfully addressed several questions like:
 
 * What are the key predictors of loan default?
