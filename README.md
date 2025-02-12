@@ -16,18 +16,20 @@ Feature Standardization: Categorical labels were standardized to maintain consis
 
 Data Transformation: Utilized PySpark for data transformation and normalization, ensuring the data is suitable for processing by machine learning algorithms.
 
-Exploratory Data Analysis (EDA)
+Exploratory Data Analysis (EDA):
 
 Key Insights: The EDA phase answered crucial questions regarding the distribution of loan amounts, interest rates, and borrower reliability, helping identify patterns and trends.
 
 Visualization: Created visual representations to understand relationships between different variables and their impact on loan default probabilities.
 
-Feature Engineering
+Feature Engineering:
+
 Dataset Balancing: Implemented SMOTE to overcome class imbalance in the target variable, crucial for unbiased model performance.
 
 Encoding and Scaling: Encoded categorical variables and normalized data ranges to prepare data for effective model training.
 
-Model Development and Evaluation
+Model Development and Evaluation:
+
 Evaluated various models to identify the best performer in predicting loan defaults:
 
 1. Logistic Regression
